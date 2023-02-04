@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*navegador*/
+header{
+    position: relative;
+    height: 9vh;
+    width: 100vw;
+    color: rgb(247, 244, 244);
+    display: flex;
+    background-color: rgb(81, 228, 44);
+    justify-content: space-between;
+    
+}
+h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    
+}
+
+.navegador{
+    
+    display: flex;
+    list-style: none;
+    background: rgb(81, 228, 44);
+    text-align: end;
+}
+.navegador ul{
+    
+    display: flex;
+    width: 700px;
+    list-style: none;
+    justify-content:space-around;
+    padding: 4px;  
+    text-decoration-color: rgb(247, 244, 244);
+}
+.navegador li a{
+    background-color: rgb(81, 228, 44);
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    margin: 15px;
+    padding: 5px;
+    font-size: 22px
+    
+    }
+.navegador li a:hover{
+        background-color: rgb(247, 244, 244);
+        color:rgb(81, 228, 44); 
+       transition: 1s;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+   background-color: white;
+}
+
+
+/*presentación,index*/
+
+
+.conten_present{
+    display: flex;
+    justify-content:space-around;
+    align-items:stretch
+
+}
+h2{
+    left: 40%;
+    font-style: oblique;
+    position: relative;
+    font-size: 30px;
+    margin:15px;
+
+    
+}
+
+.presentacion{
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+
+}
+.presentacion p{
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+img{
+    height: 500px;
+    width: 500px;
+   padding: 0px;
+}
+
+/*servicios*/
+
+.serv_li{
+    background-color: rgb(196, 248, 148); 
+    font-size: 18px;
+    color:black;
+    font-weight: 600;
+    text-align: justify;
+    
+}
+.serv_p{
+    margin:12px;
+    text-align: justify;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+/*tabla, presupuesto*/
+.presupuesto{
+   height: 300px;
+   width: 500px;
+   position: absolute; 
+   left: 30%; 
+   background-color: rgb(196, 248, 148);
+   text-align: center;
+   margin:30px 10px;
+
+}
+
+
+
+.presupuesto thead{
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    text-align: center;
+}
+
+    
+.presupuesto table , td , tr{
+    border:solid 1px;
+    border-collapse:collapse;    
+    width: 200px;
+}
+
+/*contacto*/
+
+.p_contacto{
+    font-size: 20px;
+    margin-left: 400px;
+    
+}
+
+
+.form_conteiner{
+    display:inline-flex;
+    justify-content: center;
+    width: 750px;
+    height: 450px;
+    background-color:rgb(196, 248, 148);
+    border: rgb(97, 104, 97) 3px solid;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.form{
+    margin-top: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    display: inline-block;
+    justify-content: space-around;
+}
+form li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 550;
+}
+.text-cap{
+    display: block;
+}
+.p_telefono{
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 10px;
+    
+}

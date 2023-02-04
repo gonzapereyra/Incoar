@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>IncoAr</title>
+</head>
+    <body>
+        <header>
+            <div>
+                  <h1>IncoAr</h1>
+            </div>
+            
+            <nav class="navegador">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2>Contacto</h2>
+        <p class="p_contacto"> Complete el formulario y nos comunicaremos con usted.</p>
+       <div class="form_conteiner">       
+        
+        <form class="form" action="">
+            <ul>
+            <li><label for="nombre">Nombre: </label> 
+                <input type="text" name="nombre" value=""/></li>
+            <li><label for="apellido">Apellido: </label> 
+                <input type="text" name="apellido" value=""/></li>
+            <li><label  for="mail">Mail: </label>
+                <input type="email" name="mail" value=""/></li>
+            <li><label  for="telefono">Teléfono: </label> 
+                <input type="text" name="telefono" value=""/></li>
+            <li><label  for="asunto">Motivo de consulta: </label> 
+                <input type="text" name="asunto" value=""/></li>
+            <li><label  for="consulta">Su consulta: </label>
+                <textarea name="comentario" rows="10" cols="40" value=""></textarea></li>
+            <li class="text-cap">Inserte el siguiente captcha:
+                <p id="num-captcha" class="num-captcha"></p>
+                <input type="text" id="captcha" class="captcha"></li>
+            </ul>      
+                <input type="button" class="button" value="Enviar" id="enviarform" required>
+            
+                <div id="correcto" class="correcto"></div>
+            
+            <div id="incorrecto" class="incorrecto"></div>
+        
+        </form>
+                    
+        </div>
+        
+        <p class="p_telefono">Para una comunicación directa comuniquese al: 249-4009794.</p>  
+        
+        <script type="text/javascript" src="js/code.js"></script> 
+    </body>
+</html>
